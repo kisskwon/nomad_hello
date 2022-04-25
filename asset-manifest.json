@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/webapp/static/css/main.da1fd2b5.css",
-    "main.js": "/webapp/static/js/main.194e2a7d.js",
-    "static/media/nanum-pen-script-v15-latin_korean-regular.ttf": "/webapp/static/media/nanum-pen-script-v15-latin_korean-regular.2a42d7f96844f936d41b.ttf",
-    "static/media/nanum-pen-script-v15-latin_korean-regular.woff": "/webapp/static/media/nanum-pen-script-v15-latin_korean-regular.3daff9afe4ef2d7f6f8a.woff",
-    "static/media/nanum-pen-script-v15-latin_korean-regular.eot": "/webapp/static/media/nanum-pen-script-v15-latin_korean-regular.2e9a600a1f1af75cd022.eot",
-    "static/media/nanum-pen-script-v15-latin_korean-regular.woff2": "/webapp/static/media/nanum-pen-script-v15-latin_korean-regular.957e4c27b49d3d9fb72e.woff2",
-    "static/media/img_tiiun_summary_pc_v211118.jpeg": "/webapp/static/media/img_tiiun_summary_pc_v211118.5efbff541fb2df7d0eb8.jpeg",
-    "static/media/nanum-pen-script-v15-latin_korean-regular.svg": "/webapp/static/media/nanum-pen-script-v15-latin_korean-regular.10bfae7b5b58f35d2e37.svg",
-    "index.html": "/webapp/index.html",
-    "main.da1fd2b5.css.map": "/webapp/static/css/main.da1fd2b5.css.map",
-    "main.194e2a7d.js.map": "/webapp/static/js/main.194e2a7d.js.map"
+    "main.css": "/nomad_hello/static/css/main.f9cedb4b.css",
+    "main.js": "/nomad_hello/static/js/main.67fc531c.js",
+    "static/media/nanum-pen-script-v15-latin_korean-regular.ttf": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.2a42d7f96844f936d41b.ttf",
+    "static/media/nanum-pen-script-v15-latin_korean-regular.woff": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.3daff9afe4ef2d7f6f8a.woff",
+    "static/media/nanum-pen-script-v15-latin_korean-regular.eot": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.2e9a600a1f1af75cd022.eot",
+    "static/media/nanum-pen-script-v15-latin_korean-regular.woff2": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.957e4c27b49d3d9fb72e.woff2",
+    "static/media/img_tiiun_summary_pc_v211118.jpeg": "/nomad_hello/static/media/img_tiiun_summary_pc_v211118.5efbff541fb2df7d0eb8.jpeg",
+    "static/media/nanum-pen-script-v15-latin_korean-regular.svg": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.10bfae7b5b58f35d2e37.svg",
+    "index.html": "/nomad_hello/index.html",
+    "main.f9cedb4b.css.map": "/nomad_hello/static/css/main.f9cedb4b.css.map",
+    "main.67fc531c.js.map": "/nomad_hello/static/js/main.67fc531c.js.map"
   },
   "entrypoints": [
-    "static/css/main.da1fd2b5.css",
-    "static/js/main.194e2a7d.js"
+    "static/css/main.f9cedb4b.css",
+    "static/js/main.67fc531c.js"
   ]
 }
