@@ -28,7 +28,7 @@ function Welcome(props) {
         <Box sx={{ minHeight: "100vh", p: 20 }}>
           <LottiePlayer animationData={welcomeLottie} />
 
-          <Paper sx={{ position: "absolute", bottom: 50, left: 0, right: 0 }}>
+          <Paper sx={{ position: "absolute", top: 560, left: 0, right: 0 }}>
             <Box sx={{ px: 20, mt: 4 }}>
               <Typography variant="h4" sx={{ mt: 20 }}>
                 <span style={{ color: "#6861E2" }}>이진님</span>, 환영합니다.
