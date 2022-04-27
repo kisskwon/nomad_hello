@@ -50,7 +50,7 @@ function Home(props) {
       } else if (e.key === "ArrowLeft") {
         setSelect((sel) => (playlist.length + sel - 1) % playlist.length);
       } else if (e.key === "ArrowUp") {
-        navigate("/detail");
+        navigate("/");
       }
     },
     [navigate, playerOpen]

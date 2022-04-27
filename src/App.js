@@ -2,6 +2,7 @@ import { createTheme, ThemeProvider } from "@mui/material";
 import { HashRouter, useRoutes } from "react-router-dom";
 import Detail from "./screen/Detail";
 import Home from "./screen/Home";
+import PlayWelcome from "./screen/PlayWelcome";
 import Welcome from "./screen/Welcome";
 
 const darkTheme = createTheme({
@@ -26,7 +27,8 @@ function App() {
 
 const AppRoutes = () => {
   const routes = useRoutes([
-    { path: "/", element: <Welcome /> },
+    { path: "/", element: <PlayWelcome /> },
+    { path: "/welcome", element: <Welcome /> },
     { path: "/detail", element: <Detail /> },
     { path: "/home", element: <Home /> },
   ]);
