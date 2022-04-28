@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nomad_hello/static/css/main.a92e2329.css",
-    "main.js": "/nomad_hello/static/js/main.20e2d844.js",
+    "main.css": "/nomad_hello/static/css/main.6d92f551.css",
+    "main.js": "/nomad_hello/static/js/main.80481a62.js",
     "static/media/hello.mp4": "/nomad_hello/static/media/hello.98f8d736c2dad925878f.mp4",
     "static/media/nanum-pen-script-v15-latin_korean-regular.ttf": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.2a42d7f96844f936d41b.ttf",
     "static/media/nanum-pen-script-v15-latin_korean-regular.woff": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.3daff9afe4ef2d7f6f8a.woff",
@@ -9,11 +9,11 @@
     "static/media/nanum-pen-script-v15-latin_korean-regular.woff2": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.957e4c27b49d3d9fb72e.woff2",
     "static/media/nanum-pen-script-v15-latin_korean-regular.svg": "/nomad_hello/static/media/nanum-pen-script-v15-latin_korean-regular.10bfae7b5b58f35d2e37.svg",
     "index.html": "/nomad_hello/index.html",
-    "main.a92e2329.css.map": "/nomad_hello/static/css/main.a92e2329.css.map",
-    "main.20e2d844.js.map": "/nomad_hello/static/js/main.20e2d844.js.map"
+    "main.6d92f551.css.map": "/nomad_hello/static/css/main.6d92f551.css.map",
+    "main.80481a62.js.map": "/nomad_hello/static/js/main.80481a62.js.map"
   },
   "entrypoints": [
-    "static/css/main.a92e2329.css",
-    "static/js/main.20e2d844.js"
+    "static/css/main.6d92f551.css",
+    "static/js/main.80481a62.js"
   ]
 }
