@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Avatar, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
@@ -13,8 +13,6 @@ const modalStyle = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  bgcolor: "background.paper",
-  border: "2px solid #000",
   boxShadow: 24,
   p: 0,
 };
@@ -93,12 +91,20 @@ function Home(props) {
       >
         <Box
           sx={{
-            minHeight: "100vh",
+            // minHeight: "100vh",
             position: "absolute",
             top: "0",
+            height: "1080px",
           }}
         >
-          <video autoPlay muted width="100%" onEnded={() => setOpening(false)}>
+          <video
+            autoPlay
+            muted
+            width="1920px"
+            height="1080px"
+            onEnded={() => setOpening(false)}
+            style={{ outline: "none", border: "none" }}
+          >
             <source src={videofile} type="video/mp4" />
           </video>
         </Box>
@@ -112,7 +118,9 @@ function Home(props) {
         <Box
           sx={{
             px: 5,
-            minHeight: "100vh",
+            // minHeight: "100vh",
+            width: "1920px",
+            height: "1080px",
             position: "absolute",
             top: 0,
             backgroundColor: "white",
@@ -130,19 +138,29 @@ function Home(props) {
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <Button
                 variant="contained"
+                onClick={() => window.location.reload()}
                 sx={{
                   backgroundColor: "#797A7E",
                   borderRadius: 20,
                   width: "220px",
                   height: "75px",
                   mr: 2,
+                  "&:focus, &:hover": {
+                    backgroundColor: "#a50034",
+                  },
                 }}
               >
                 <Typography variant="h4" fontWeight={"bold"} fontSize={40}>
                   다시보기
                 </Typography>
               </Button>
-              <img src={exitButton} alt="" width="85" />
+              <Button onClick={() => window.close()}>
+                <Avatar
+                  alt=""
+                  src={exitButton}
+                  sx={{ width: 85, height: 85 }}
+                />
+              </Button>
             </Box>
           </Box>
           <Typography
@@ -165,8 +183,13 @@ function Home(props) {
             sx={{
               display: "flex",
               flexWrap: "nowrap",
-              overflowX: "hidden",
+              overflowX: "scroll",
               m: 3,
+              msOverflowStyle: "none",
+              scrollbarWidth: "none",
+              "::-webkit-scrollbar": {
+                display: "none",
+              },
             }}
           >
             {playlist.map((videoId, index) => (
@@ -192,7 +215,9 @@ function Home(props) {
                   height={index === select ? "368" : "340"}
                   src={`https://img.youtube.com/vi/${videoId}/0.jpg`}
                   alt=""
-                  style={{ objectFit: "cover" }}
+                  style={{
+                    objectFit: "cover",
+                  }}
                 />
               </Button>
             ))}
@@ -205,11 +230,11 @@ function Home(props) {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={modalStyle}>
+        <Box sx={modalStyle} height="878px">
           <iframe
             id="player"
-            width="1728"
-            height="972"
+            width="1560"
+            height="878"
             src={`https://www.youtube.com/embed/${playVideoId}?autoplay=1&rel=0&modestbranding=1&fs=0&controls=0&enablejsapi=1`}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
